@@ -1,10 +1,10 @@
 # Network-Outbreak-Simulations
 Code to recreate the simulations from 
 
-Narayanan A, Muldoon SF, Jehrio M, Hageman Blair R. Informing pandemic intervention strategies
+_Narayanan A, Muldoon SF, Jehrio M, Hageman Blair R. Informing pandemic intervention strategies
 through coupled contact tracing and network node prioritization. [In Revisions: March 2025]. PLOS
 Complex Systems.
-
+_
 
 This repository contains code that produces the simulations described in the study cited above. Each directory contains the scripts to generate (where necessary) a unique type of network(s) and simulates outbreaks on them, which are then curtailed with the use of several existing and proposed novel augmented contact tracing strategies. 
 
@@ -18,12 +18,12 @@ connectivity. In this study, we propose novel augmented tracing strategies that 
 
 ### Installation
 This package leverages the work of 
-Firth, Josh A., et al. "Using a real-world network to model localized COVID-19 control strategies." Nature medicine 26.10 (2020): 1616-1622.
-
+_Firth, Josh A., et al. "Using a real-world network to model localized COVID-19 control strategies." Nature medicine 26.10 (2020): 1616-1622.
+_
 and the associated code for package/library covidhm published at 
 https://github.com/biouea/covidhm
 
-Before commencing any work, please download the code from this repository locally to be able to install it. Please do not follow the instructions from the covidhm repo as the dependencies have changed some of their functionality and may not allow covidhm to function accurately. 
+Before commencing any work, please download the code from this repository locally to be able to install it. Please do not follow the instructions from the _covidhm_ repo as the dependencies have changed some of their functionality and may not allow covidhm to function accurately. 
 
 Instead, after downloading the covidhm files, and in a clean R environment with no packages/libraries except the base installed, please run the script install_packages.R. If at any step R prompts you to update any of the packages you try to install, please skip updates. 
 
@@ -35,5 +35,5 @@ Each script contains specific instructions which are unique to the network and s
 
 Each directory also contains a second script, which helps generate a unique visualization for each network-outbreak configuration. This is generated from the data stored from the simulation scripts.
 
-If any of the scripts do not work as expected, or raise any issues, please reach out to me and I will help with setting the siumlations up. 
+If any of the scripts do not work as expected, or raise any issues, please reach out to me and I will help with setting the simulations up. 
 
