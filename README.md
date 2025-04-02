@@ -1,2 +1,7 @@
 # Network-Outbreak-Simulations
-Code and Data from Informing pandemic intervention strategies through coupled contact tracing and network node prioritization.
+Code to recreate the simulations from 
+Informing pandemic intervention strategies through coupled contact tracing and network node prioritization [In Revisions PLoS Complex Systems, April 2025]
+
+
+
+
