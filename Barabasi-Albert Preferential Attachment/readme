@@ -1,0 +1,7 @@
+This directory has three items. 
+
+1. pa_simulations.R - a parameter adjustable R Script which generates and performs the "Barabasi-Albert Preferential Attachment" network simulations used in this study.
+2. countsdirectory - a default directory into which csv files generated from the simulation are stored. These files will be aggregated to produde visuals. Currently, the directory has sample output data generated from 2 outbreaks simulated on 2 generated networks with primary tracing in place. 
+3. pa_visuals.R - an R Script which produces a plot based on the data stored in the countsdirectory.
+
+Note: The data generated and stored in countsdirectory can be altered infinitely using pa_simulations.R - please read the comments in the script to tune parameters to pick your tracing strategy of choice, outbreak duration, etc.
